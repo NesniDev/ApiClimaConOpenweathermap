@@ -256,11 +256,6 @@ hr{
     font-size: 10px;
     margin: 0 auto;
   }
-
-  .card-img{
-    width: 100%;
-    height: 50%;
-  }
   
 }
 
@@ -295,10 +290,7 @@ hr{
   left: 35%;
   font-size: 18px;
 }
-.card-img{
-  width: 100%;
-  height: 50%;
-}
+
 
 }
 
@@ -342,10 +334,6 @@ hr{
   font-size: 18px;
 }
 
-.card-img{
-  width: 100%;
-  height: 50%;
-}
   
 }
 
@@ -378,10 +366,7 @@ hr{
     margin: 0 10px;
   }
 
-  .card-img{
-    width: 100%;
-    height: 50%;
-  }
+
   
 }
 
@@ -413,8 +398,4 @@ hr{
     margin: 0 10px;
   }
   
-  .card-img{
-    width: 100%;
-    height: 50%;
-  }
 }
