@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@400;600&family=Rubik+Gemstones&family=Signika+Negative&display=swap');
+
+body{
+  background-color: #1B2631;
+  font-family: 'Signika Negative', sans-serif;
+  color: black;
+  font-weight: bold;
+  margin: 0 50px;
+  box-sizing: border-box;
+}
+
+.bu{
+  color: #F8F9F9;
+}
+.containeer{
+  font-size: 10px;
+  background-color: #C0C0C0	;
+  
+}
+
+.App {
+  text-align: center;
+}
+
+input:focus{
+  color: #1B2631;
+}
+
+input{
+  color: #1B2631;
+  text-transform: capitalize;
+}
+
+.code-country{
+  font-size: 10px;
+  z-index: 1;
+}
+
+.card-title{
+  position: absolute;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 22px;
+  word-break: break-all;
+  font-weight: bold;
+  z-index: 1;
+}
+.card-date{
+  position: absolute;
+  padding: 5px;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-left: 10px;
+  z-index: 1;
+}
+.card-temp{
+  margin-left: 40px;
+  position: absolute;
+  /* padding-left: 5px; */
+  margin-top: 220px;
+  font-size: 50px;
+  z-index: 1;
+}
+.card-desc{
+
+  position: absolute;
+  margin-left: 10px;
+  /* padding-left: 5px; */
+  margin-top: 275px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  z-index: 1;
+  
+}
+
+.icon{
+  margin-left: 10px;
+}
+
+.card-text{
+  margin: 10px 20px;
+  font-size: 15px;
+  z-index: 1;
+  color: black;
+  font-weight: bold;
+}
+
+.card-img{
+  filter: blur(1px);
+}
+
+.description img{
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  z-index: 1;
+}
+
+hr{
+  border: 1px solid #2f3544;
+}
+
+.juliso{
+  font-size: 10px;
+  margin: 0 44px;
+}
+
+.card-img-nothing{
+  max-height: 26rem; 
+  margin: 0 auto;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.containeer-nothing{
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: none	;
+}
+
+.fa-solid{
+  margin-left: 15px;
+  color: #2f3544;
+}
+
+.img-right{
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 38%;
+  left: 63%;
+
+}
+.card-no{
+  color: #1B2631;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1082px) {
+  
+  .containeer-nothing{
+    max-width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: none	;
+}
+
+.card-no{
+  color: #1B2631;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  font-size: 30px;
+}
+
+  
+}
+@media screen and (max-width: 802px) {
+  
+  .containeer-nothing{
+    max-width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: none	;
+}
+
+.card-no{
+  color: #1B2631;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  font-size: 30px;
+}
+
+  
+}
+
+@media screen and (max-width: 768px) {
+        
+  .card-img{
+    width: 100%;
+    height: 50%;
+  }
+
+  .code-country{
+    font-size: 20px;
+  }
+  
+  .card-title{
+    margin-left: 20px;
+    font-size: 40px;
+
+    
+  }
+  .card-date{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  .card-temp{
+    margin-left: 90px;
+    margin-top: 250px;
+    font-size: 120px;
+  }
+  .card-desc{
+    margin-left: 100px;
+    margin-top: 405px;
+    font-size: 20px;    
+  }
+
+  .img-right{
+    display: none;
+  
+  }
+  .card-no{
+    color: #1B2631;
+    position: absolute;
+    top: 60%;
+    left: 37%;
+    font-size: 20px;
+    
+  }
+
+  .containeer-nothing{
+    max-width: 70%;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: none	;
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+        
+  .card-temp{
+    margin-left: 85px;
+    margin-top: 250px;
+    font-size: 120px;
+  }
+  .card-desc{
+    margin-left: 95px;
+    margin-top: 405px;
+    font-size: 20px;    
+  }
+  .juliso{
+    font-size: 10px;
+    margin: 0 auto;
+  }
+  
+}
+
+@media screen and (max-width: 470px) {
+        
+  .card-temp{
+    margin-left: 50px;
+    margin-top: 240px;
+    font-size: 120px;
+  }
+  .card-desc{
+    margin-left: 65px;
+    margin-top: 375px;
+    font-size: 20px;    
+  }
+  .juliso{
+    font-size: 10px;
+    margin: 0 10px;
+  }
+  .containeer-nothing{
+    max-width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: none	;
+}
+
+.card-no{
+  color: #1B2631;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  font-size: 18px;
+}
+input:focus{
+  color: #1B2631;
+}
+
+
+}
+
+@media screen and (max-width: 420px) {
+  .card-title{
+    margin-left: 20px;
+    font-size: 30px;
+  }
+  .card-date{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 70px;
+  }
+  .card-temp{
+    margin-left: 60px;
+    margin-top: 200px;
+    font-size: 80px;
+  }
+  .card-desc{
+    margin-left: 45px;
+    margin-top: 295px;
+    font-size: 17px;    
+  }
+  .juliso{
+    font-size: 10px;
+    margin: 0 10px;
+  }
+  .containeer-nothing{
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: none	;
+}
+
+.card-no{
+  color: #1B2631;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  font-size: 18px;
+}
+  
+}
+
+@media screen and (max-width: 378px) {
+
+  .code-country{
+    font-size: 13px;
+  }
+  .card-title{
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .card-date{
+    margin-left: 10px;
+    font-size: 17px;
+    margin-top: 60px;
+  }
+  .card-temp{
+    margin-left: 60px;
+    margin-top: 200px;
+    font-size: 70px;
+  }
+  .card-desc{
+    margin-left: 45px;
+    margin-top: 280px;
+    font-size: 14px;    
+  }
+  .juliso{
+    font-size: 10px;
+    margin: 0 10px;
+  }
+  
+}
+
+@media screen and (max-width: 350px) {
+  .code-country{
+    font-size: 10px;
+  }
+  .card-title{
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  .card-date{
+    margin-left: 10px;
+    font-size: 17px;
+    margin-top: 60px;
+  }
+  .card-temp{
+    margin-left: 70px;
+    margin-top: 200px;
+    font-size: 50px;
+  }
+  .card-desc{
+    margin-left: 35px;
+    margin-top: 250px;
+    font-size: 12px;    
+  }
+  .juliso{
+    font-size: 10px;
+    margin: 0 10px;
+  }
+  
+  
+}
