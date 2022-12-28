@@ -55,7 +55,7 @@ const Card = ({ loadingData, showData, weather, forecast }) => {
                                 {/* pasamos de kelvin a celcius, quitando la constante kelvin */}
                                 <h1 className="card-temp">{(weather.main.temp - 273.15).toFixed(0)}°C</h1>
                                 <p className="card-desc"><img src={urlIcon} className="icon" alt="icon" />{weather.weather[0].description} </p>
-                                <img src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="card-img h-28 w-100 object-cover md:h-full md:w-48" />
+                                <img src="https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="card-img w-full object-cover md:h-full md:w-48" />
                             </div>
                             <div class="">
                                 <div className="text-start text-slate-50">

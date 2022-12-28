@@ -89,7 +89,7 @@ input{
 }
 
 .card-img{
-  filter: blur(1px);
+    filter: blur(1px);
     height: 100%;
 }
 
@@ -133,8 +133,8 @@ hr{
   position: absolute;
   height: 150px;
   width: 150px;
-  top: 38%;
-  left: 63%;
+  top: 36%;
+  left: 62%;
 
 }
 .card-no{
@@ -163,9 +163,6 @@ hr{
   font-size: 30px;
   }
 
-  .card-img{
-    filter: blur(1px);
-  }
 }
 @media screen and (max-width: 802px) {
   
@@ -185,36 +182,33 @@ hr{
   font-size: 30px;
 }
 
-.card-img{
-  filter: blur(1px);
-}
 }
 
 @media screen and (max-width: 767px) {
         
   
   .code-country{
-    font-size: 10px;
+    font-size: 17px;
   }
   .card-date{
     margin-left: 10px;
-    font-size: 15px;
-    margin-top: 40px;
+    font-size: 25px;
+    margin-top: 60px;
   }
   .card-title{
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 10px;
   }
   .card-temp{
-    margin-left: 45px;
+    margin-left: 95px;
     margin-top: 200px;
-    font-size: 50px;
+    font-size: 100px;
   }
   .card-desc{
-    margin-left: 13px;
-    margin-top: 255px;
-    font-size: 12px;    
+    margin-left: 90px;
+    margin-top: 320px;
+    font-size: 20px;    
   }
 
   .img-right{
@@ -238,37 +232,25 @@ hr{
     background-color: none	;
 
   }
+
+  .card-img{
+    filter: blur(1px);
+    width: 450px;
+    height: 420px;
+  }
 }
 
-@media screen and (max-width: 500px) {
-        
-  .card-temp{
-    margin-left: 85px;
-    margin-top: 250px;
-    font-size: 120px;
-  }
-  .card-desc{
-    margin-left: 95px;
-    margin-top: 405px;
-    font-size: 20px;    
-  }
-  .juliso{
-    font-size: 10px;
-    margin: 0 auto;
-  }
-  
-}
 
 @media screen and (max-width: 470px) {
         
   .card-temp{
-    margin-left: 50px;
+    margin-left: 90px;
     margin-top: 240px;
-    font-size: 120px;
+    font-size: 80px;
   }
   .card-desc{
-    margin-left: 65px;
-    margin-top: 375px;
+    margin-left: 60px;
+    margin-top: 335px;
     font-size: 20px;    
   }
   .juliso{
@@ -334,7 +316,11 @@ hr{
   font-size: 18px;
 }
 
-  
+.card-img{
+  filter: blur(1px);
+  width: 450px;
+  height: 370px;
+}
 }
 
 @media screen and (max-width: 378px) {
@@ -366,7 +352,15 @@ hr{
     margin: 0 10px;
   }
 
+  .card-img{
+    filter: blur(1px);
+    width: 450px;
+    height: 350px;
+  }
 
+  .card-text{
+    font-size: 12px;
+  }
   
 }
 
@@ -396,6 +390,12 @@ hr{
   .juliso{
     font-size: 10px;
     margin: 0 10px;
+  }
+
+  .card-img{
+    filter: blur(1px);
+    width: 450px;
+    height: 310px;
   }
   
 }

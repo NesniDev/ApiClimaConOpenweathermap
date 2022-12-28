@@ -4,7 +4,6 @@ import Card from './Card'
 import Loader from './Loader'
 
 const WhaterPanel = ()=> {
-  
     // acceder a la api de clima
     let urlWheater = "https://api.openweathermap.org/data/2.5/weather?appid=a087b49470506394f6a1f6bc4d82431a&lang=es"
     
